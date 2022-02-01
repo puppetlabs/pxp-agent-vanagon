@@ -1,10 +1,7 @@
 ---
 name: vanagon check PRs
 
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 
 jobs:
  snyk_vanagon:
