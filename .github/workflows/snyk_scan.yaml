@@ -18,8 +18,6 @@ jobs:
         snykToken: ${{ secrets.SNYK_PE_TOKEN }}
         snykOrg: 'puppet-enterprise'
         skipPlatforms: 'debian-10-armhf'
-        urlsToReplace: 'artifactory.delivery.puppetlabs.net,%s/xart,builds.delivery.puppetlabs.net,%s/xbuild'
-        newHost: 'localhost'
         rproxyUser: ${{ secrets.RPROXY_USER }}
         rproxyKey: ${{ secrets.RPROXY_KEY }}
         sshKey: ${{ secrets.SEC_SECBOT_SSH_PUBLIC }}
