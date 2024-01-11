@@ -1,0 +1,12 @@
+diff --git a/lib/inc/pxp-agent/pxp_connector.hpp b/lib/inc/pxp-agent/pxp_connector.hpp
+index de36ce9..c77ca17 100644
+--- a/lib/inc/pxp-agent/pxp_connector.hpp
++++ b/lib/inc/pxp-agent/pxp_connector.hpp
+@@ -3,6 +3,7 @@
+ #include <vector>
+ #include <string>
+ #include <functional>
++#include <boost/cstdint.hpp>
+ 
+ namespace PCPClient {
+ struct ParsedChunks;
