@@ -80,6 +80,7 @@ component 'pxp-agent' do |pkg, settings, platform|
   else
     # These platforms use the default OS toolchain, rather than pl-build-tools
     cmake = 'cmake'
+    pkg.apply_patch 'patches/pxp-agent/gcc-13.patch'
     toolchain = ''
     special_flags += " -DCMAKE_CXX_FLAGS='#{settings[:cflags]} -Wno-deprecated -Wimplicit-fallthrough=0' "
     special_flags += ' -DENABLE_CXX_WERROR=OFF ' unless platform.name =~ /sles-15/
