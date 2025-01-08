@@ -1,5 +1,7 @@
 # pxp-agent-vanagon
 
+This repository is archived and Perforce will no longer be updating this repository. For more information, see https://www.puppet.com/blog/open-source-puppet-updates-2025.
+
 The pxp-agent-vanagon was created to build [pxp-agent](https://github.com/puppetlabs/pxp-agent/) and prepare a .tar.gz that will be used in [puppet-agent](https://github.com/puppetlabs/puppet-agent).
 
 The project is built using [vanagon](https://github.com/puppetlabs/vanagon), a packaging utility.
